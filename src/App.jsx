@@ -1,14 +1,12 @@
-import React from 'react'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
+import React from "react";
+import LandingPage from "./components/LandingPage";
 
 const App = () => {
   return (
-    <div className='h-screen flex flex-col'>
-      <Navbar />
-      <Hero />
+    <div>
+      <LandingPage />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
